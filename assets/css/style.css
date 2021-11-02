@@ -5,12 +5,10 @@
 }
 
 body {
-  /* more on this crazy alphanumerical value in a minute! */
   color: #39a6b2;
   font-family: Helvetica, Arial, sans-serif;
 }
 
-/* apply styles to <header> */
 header {
   padding: 20px 35px;
   background-color: #39a6b2;
@@ -66,12 +64,12 @@ footer a {
   color: #024e76;
 }
 
-section{
+section {
   padding: 60px;
 }
 
 .hero {
-  background-image: url("../images/hero-bg.jpg");
+  background-image: url('../images/hero-bg.jpg');
   height: 600px;
   background-size: cover;
   background-position: center;
@@ -89,16 +87,15 @@ section{
   right: 140px;
 }
 
+.hero-form h3 {
+  font-size: 24px;
+  margin: 0;
+}
 .hero-form p {
   margin: 5px 0 15px 0;
 }
 
-.hero-form{
-  font-size: 24px;
-  margin: 0px;
-}
-
-.form-input{
+.form-input {
   border: 1px solid #024e76;
   display: block;
   padding: 7px 15px;
@@ -108,11 +105,11 @@ section{
   margin-bottom: 15px;
 }
 
-.hero-form label{
+.hero-form label {
   margin: 0 5px;
 }
 
-.hero-form button{
+.hero-form button {
   color: #fce138;
   background-color: #024e76;
   border: none;
